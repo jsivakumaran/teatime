@@ -7,7 +7,8 @@ angular.module('teaTimeApp', [
   'ngSanitize',
   'btford.socket-io',
   'ui.router',
-  'ui.bootstrap'
+  'ui.bootstrap',
+  'ngMaps'
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
