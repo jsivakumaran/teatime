@@ -15,7 +15,7 @@
     "lodash": "~2.4.1",
     "angular-socket-io": "~0.7.0",
     "angular-ui-router": "~0.2.15",
-    "ng-maps":"~0.1.11"
+    "ng-maps": "*"
   },
   "devDependencies": {
     "angular-mocks": "~1.4.0"
