@@ -5,7 +5,7 @@ angular.module('teaTimeApp')
     $stateProvider
       .state('activity', {
         url: '/',
-        templateUrl: 'app/main/activity.html',
+        templateUrl: 'app/activity/activity.html',
         controller: 'ActivityController',
         controllerAs: 'activity'
       });
