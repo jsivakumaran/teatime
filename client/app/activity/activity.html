@@ -1,4 +1,24 @@
-<section> 
+<div id= "activitywrapper"> 
+		<input type="text" name="firstname" value=""><br>
+		<input type="text" name="lastname" value=""><br><br>
+    		<pre>Selected date is: <em>{{dt | date:'fullDate' }}</em></pre>
+    		<!-- <div style="display:inline-block; min-height:290px;">
+  <uib-datepicker ng-model="dt" min-date="minDate" show-weeks="true" class="well well-sm" custom-class="getDayClass(date, mode)"></uib-datepicker>
+    		</div> -->
+    		  <div class="row">
+        <div class="col-md-6">
+            <p class="input-group">
+              <input type="text" class="form-control" uib-datepicker-popup="{{format}}" ng-model="dt" is-open="popup1.opened" min-date="minDate" max-date="maxDate" datepicker-options="dateOptions" date-disabled="disabled(date, mode)" ng-required="true" close-text="Close" alt-input-formats="altInputFormats" />
+              <span class="input-group-btn">
+                <button type="button" class="btn btn-default" ng-click="open1()"><i class="glyphicon glyphicon-calendar"></i></button>
+              </span>
+            </p>
+        </div>
 
 
-</section>
+
+
+
+
+		<!-- <input type="submit" value="Submit"> -->
+</div>

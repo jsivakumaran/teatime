@@ -8,7 +8,7 @@ angular.module('teaTimeApp', [
   'btford.socket-io',
   'ui.router',
   'ui.bootstrap',
-  'ngMaps'
+  'ngMaps',
 ])
   .config(function($urlRouterProvider, $locationProvider) {
     $urlRouterProvider
