@@ -1,0 +1,16 @@
+html, body { height: 100%; margin: 0; padding: 0; }
+#map { height: 100%; }
+
+button.create {
+  position: absolute;
+  bottom: 5%;
+  left:45%;
+  width: 330px;
+  height: 55px;
+  background-color: #b5838d;
+  color: #ffcdb2;
+  font-family: sans;
+  font-size: 1.8rem;
+  border: none;
+
+}
